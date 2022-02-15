@@ -1,6 +1,6 @@
-package com.siruscom;
+package qaace22training;
 
-public class Exercise1 {
+public class ExerciseOne {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -8,6 +8,7 @@ public class Exercise1 {
 		int b = 15;
 		int c = a*b;
 		System.out.println("The product is " + c);
+
 
 	}
 
