@@ -1,0 +1,51 @@
+Task:
+
+1) Convert Do while to while loop?
+Ans:
+int i=1;
+while(i<6)
+{
+       System.out.println("I will get printed once for sure");
+       i++;
+}
+
+
+2) There are some limitations with For-each loop. Can you find what they are?
+Ans: 
+In for each loop array iterable elements cannot be modified
+Index values are not printed so it can’t get index values
+The list of array trying to backward traversal but in for each loop it doesn’t traverse backwards
+
+
+3) When to go for double ? And When to use Float ?
+Ans: Double is used when number is large and need accurate result, Ex: 84.77758859395 whereas float is used for storing short number by declaring the value with f. Ex: 84.77f
+
+
+4) Can char store negative numbers in JAVA?
+Ans: No Java cannot store negative values. Java contains all unsigned values so we cannot add signed values in java.
+
+
+5) Find the Output :
+Ans: 22
+
+a++ is post increment that increment value by 1 after assigning to variable that is 11
+++a is pre increment that increment value by 1 before assigning to variable that is 11
+So 11 + 11 = 22
+
+
+6) Find the Output :
+
+
+
+
+
+
+
+Ans: 9
+
+It is unary operator and It converts all negative to positive number and if it is positive number, so it converts positive to negative.
+
+
+
+7) Explore About Short Circuiting?
+Ans: Short circuiting means the first operator decide the final result and second operator will not be checked. E.g. Expression is: True || False. In case of || (OR), One side is to be true and it results true and no need to check second operator.
